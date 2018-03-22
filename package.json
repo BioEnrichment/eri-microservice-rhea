@@ -4,7 +4,8 @@
   "description": "",
   "main": "sybiont.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r @std/esm lib/server.js"
   },
   "author": "",
   "license": "BSD-2-Clause",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@std/esm": "^0.19.1",
     "bioterms": "^0.2.1",
+    "body-parser": "^1.18.2",
     "eri-config": "git+https://github.com/BioEnrichment/eri-config.git",
     "eri-xrefdb-client": "git+https://github.com/BioEnrichment/eri-xrefdb-client.git",
     "express": "^4.16.2",
