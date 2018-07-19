@@ -5,18 +5,18 @@
   "main": "sybiont.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -r @std/esm lib/server.js"
+    "start": "nodemon -r esm lib/server.js"
   },
   "author": "",
   "license": "BSD-2-Clause",
-  "@std/esm": "cjs",
   "dependencies": {
-    "@std/esm": "^0.19.1",
     "bioterms": "^0.2.1",
     "body-parser": "^1.18.2",
     "eri-config": "git+https://github.com/BioEnrichment/eri-config.git",
     "eri-xrefdb-client": "git+https://github.com/BioEnrichment/eri-xrefdb-client.git",
+    "esm": "^3.0.71",
     "express": "^4.16.2",
+    "idiot-cache": "^0.1.0",
     "ldf-facade": "git+https://github.com/BioEnrichment/ldf-facade.git",
     "libxmljs": "^0.18.7",
     "morgan": "^1.9.0",
